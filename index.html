@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+    <title>Lista de Compras</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="title"><h1>Lista de Compras</h1></div>
+      <section class="inputs">
+        <div class="labelAndInput">
+          <label for="product">Produto: </label>
+          <input
+            id="product"
+            type="text"
+            placeholder="Digite o nome do produto"
+            onpaste="return false"
+            ondrop="return false"
+          />
+        </div>
+        <div class="labelAndInput">
+          <label for="quantity">Quantidade: </label>
+          <input
+            id="quantity"
+            type="number"
+            placeholder="Por unidade ou por kg"
+          />
+        </div>
+        <div class="labelAndInput">
+          <label for="price">Preço (R$): </label>
+          <input
+            id="price"
+            type="number"
+            placeholder="Preço estimado (un./kg)"
+          />
+        </div>
+      </section>
+      <button id="addBtn">Adicionar</button>
+    </main>
+    <section class="listAndPrice">
+      <ul class="productsList"></ul>
+      <h2 id="totalPrice"></h2>
+    </section>
+    <section class="clearData">
+      <button id="clearBtn">Limpar</button>
+    </section>
+  </body>
+</html>
