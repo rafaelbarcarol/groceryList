@@ -34,7 +34,7 @@
 
 ## Link para visualizar a página
 
-
+https://rafaelbarcarol.github.io/groceryList/
 
 <br>
 
