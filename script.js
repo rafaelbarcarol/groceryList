@@ -52,6 +52,8 @@ function listarCompras() {
   });
 
   lista.innerHTML = novaLi;
+
+  showClearBtn();
 }
 
 function deletarCompra(posicao) {
@@ -69,11 +71,20 @@ function clearData() {
   }
 }
 
+function showClearBtn() {
+  if (compras.length === 0) {
+    clearBtn.classList.add("remove");
+  } else {
+    clearBtn.classList.remove("remove");
+  }
+}
+
 produto.addEventListener("keypress", function (e) {
   if (!checkChar(e)) {
     e.preventDefault();
   }
 });
 
+showClearBtn();
 addBtn.addEventListener("click", novaCompra);
 clearBtn.addEventListener("click", clearData);

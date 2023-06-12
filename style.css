@@ -127,6 +127,10 @@ body {
   top: 1px;
 }
 
+.remove {
+  visibility: hidden;
+}
+
 @media (max-width: 910px) {
   .inputs {
     flex-direction: column;
