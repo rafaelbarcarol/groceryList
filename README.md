@@ -7,7 +7,10 @@
 - Aplica um filtro no campo do nome do Produto para aumentar a segurança e combater injeções prejudiciais;
 
 - Além da opção de adicionar itens, também é possível remover itens de forma isolada ou limpar a lista como um todo.
+<br>
+Disponível em: https://rafaelbarcarol.github.io/groceryList/
 
+![groceryListGif](https://github.com/rafaelbarcarol/groceryList/assets/128104779/ad6c8dd0-a89e-4381-b00f-b87a02012b6b)
 <br>
 
 ## Stacks utilizadas
@@ -29,12 +32,6 @@
 - Prática de implementações dinâmicas por meio do JS para adicionar ou excluir elementos da aplicação;
 
 - Implementação do projeto via GitHub Pages.
-
-<br>
-
-## Link para visualizar a página
-
-https://rafaelbarcarol.github.io/groceryList/
 
 <br>
 
