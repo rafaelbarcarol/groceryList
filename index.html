@@ -10,14 +10,17 @@
   </head>
   <body>
     <main class="container">
-      <div class="title"><h1>Lista de Compras</h1></div>
+      <div class="title">
+        <h1>Lista de Compras</h1>
+        <img src="./img/supermarket.png" alt="supermarket" />
+      </div>
       <section class="inputs">
         <div class="labelAndInput">
           <label for="product">Produto: </label>
           <input
             id="product"
             type="text"
-            placeholder="Digite o nome do produto"
+            placeholder="Nome do produto..."
             onpaste="return false"
             ondrop="return false"
           />
@@ -27,7 +30,7 @@
           <input
             id="quantity"
             type="number"
-            placeholder="Por unidade ou por kg"
+            placeholder="Quantidade (un./kg)..."
           />
         </div>
         <div class="labelAndInput">
@@ -35,7 +38,7 @@
           <input
             id="price"
             type="number"
-            placeholder="Preço estimado (un./kg)"
+            placeholder="Valor estimado (un./kg)..."
           />
         </div>
       </section>

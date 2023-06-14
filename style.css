@@ -8,7 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #d9c2a3;
+  background-color: #b3cde0;
 }
 
 .container {
@@ -19,12 +19,24 @@ body {
   gap: 2rem;
 }
 
+.title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+  padding: 0rem 2rem;
+}
+
+.title img {
+  height: 5rem;
+}
+
 .inputs {
   display: flex;
   padding: 2rem;
   border-radius: 1.2rem;
   gap: 1rem;
-  background-color: #cca782;
+  background-color: #6497b1;
   font-weight: 700;
 }
 
@@ -36,7 +48,7 @@ body {
 
 .produtoUnidade {
   display: flex;
-  background-color: #cca782;
+  background-color: #6497b1;
   border-radius: 0.5rem;
   justify-content: space-between;
   padding: 1.5rem;
@@ -94,7 +106,6 @@ body {
   border-radius: 0.5rem;
   line-height: 2rem;
   border-bottom: 3px solid #18ab29;
-  border-top: 3px solid #18ab29;
 }
 
 .clearData {
