@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Compras</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="shopping">
+      <h1 class="shopping__title">Lista de Compras</h1>
+      <form class="shopping__register js-register">
+        <input
+          class="shopping__input js-content-input"
+          type="text"
+          placeholder="Insira aqui o nome do produto..."
+        />
+
+        <a class="shopping__add js-add-item">
+          <p>+</p>
+        </a>
+      </form>
+      <div class="shopping__items js-shopping-items"></div>
+      <div class="shopping__remove-modal js-remove-modal">
+        <p class="shopping__remove-text">
+          Tem certeza que deseja remover esse item da lista?
+        </p>
+        <div class="shopping__remove-options">
+          <div class="shopping__confirm-remove js-confirm-remove">Remover</div>
+          <div class="shopping__cancel-remove js-cancel-remove">Cancelar</div>
+        </div>
+      </div>
+      <div class="shopping__remove-layer js-background-layer"></div>
+      <div class="shopping__feedback js-feedback">
+        <div class="shopping__message">Produto adicionado com sucesso!</div>
+        <div class="shopping__progress js-progress"></div>
+      </div>
+    </main>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/app.js"></script>
+  </body>
+</html>
